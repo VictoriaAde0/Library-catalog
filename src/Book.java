@@ -1,42 +1,46 @@
 public class Book {
-    private String Title;
-    private String Author;
-    private String ISBN;
-    private String Genre;
+    private String title;
+    private String author;
+    private String isbn;
+    private String genre;
 
-    public Book(String title, String author, String ISBN, String genre){
+    public Book() {
+    }
+
+    public Book(String title, String author, String ISBN, String genre) {
+
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
     public void setTitle(String title) {
-        Title = title;
+        title = title;
     }
 
     public String getAuthor() {
-        return Author;
+        return author;
     }
 
     public void setAuthor(String author) {
-        Author = author;
+        author = author;
     }
 
     public String getISBN() {
-        return ISBN;
+        return isbn;
     }
 
     public void setISBN(String ISBN) {
-        this.ISBN = ISBN;
+        this.isbn = ISBN;
     }
 
     public String getGenre() {
-        return Genre;
+        return genre;
     }
 
     public void setGenre(String genre) {
-        Genre = genre;
+        genre = genre;
     }
 }
 
